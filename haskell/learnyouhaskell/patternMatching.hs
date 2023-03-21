@@ -45,7 +45,7 @@ depois fatorial de 2 é `2 * factorial 1`, ate agora nos temos `3 * (2* factoria
 Assim ficando `3 * (2 * (1 * 1))`
 -}
 
--- O Pattern Matching pode tambem falhar. Se nos defininmos uma funcao asssim
+-- O Pattern Matching pode tambem falhar. Se nos definirmos uma funcao assim
 --charName :: Char -> String  
 --charName 'a' = "Albert"  
 --charName 'b' = "Broseph"  
@@ -148,46 +148,4 @@ capital "" = "Empty string, whoops!"
 capital all@(x:xs) = "The first letter of " ++ all ++ " is " ++ [x]  
 --ghci> capital "Dracula"  =>
 {-"The first letter of Dracula is D"-}
-
-  
-
-
-
-{-
-    
-
-
-
-    3 Chamada referente a biggerSorted da chamada 2
-    x = 9
-    retorn [9]
-
-    2 Chamada referente a smallerSorted da 1 chamada
-    x = 5
-    quicksort [1,2,2,3] ++ [5] ++ [9]
-    smallerSorted = [1,2,2,3]
-    2 retorna [1,1,2,3,5,9]
-
-    
-
-
-    1 chamada
-    quicksort [5,3,9,1,2,2]
-
-
-
-
-
-
-
---}
-
-
-
-
-
-
-
-
-
 
